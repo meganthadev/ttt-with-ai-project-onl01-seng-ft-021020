@@ -43,6 +43,7 @@ class Game
      game.play
       end
 
+
     play_again = ""
       until play_again.downcase == "n" || play_again.downcase == "no"
     puts "Would you like to play again?"
