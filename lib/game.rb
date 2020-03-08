@@ -42,7 +42,7 @@ class Game
     until game.won?
      game.play
       end
-
+    
 
     play_again = ""
       until play_again.downcase == "n" || play_again.downcase == "no"
