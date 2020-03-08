@@ -64,8 +64,6 @@ class Game
     Game.new(Players::Human.new("X"), Players::Human.new("O"), Board.new).play
   end
   puts "Would like to play again? [y/ n]"
-
-
     play_again = gets.strip
     play_again.downcase == "y" || play_again.downcase == "yes"
       game = Game.new
@@ -73,7 +71,7 @@ class Game
         game.play
       end
     end
-  end 
+  
   
   def play 
     while !over?
